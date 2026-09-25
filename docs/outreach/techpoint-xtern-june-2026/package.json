@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "node src/backend/server.mjs",
+    "start": "node init && node src/backend/server.mjs",
     "test": "node --test src/backend/*.test.mjs",
     "e2e": "node scripts/e2e.mjs",
     "check": "npm test && npm run e2e",

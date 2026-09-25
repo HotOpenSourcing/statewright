@@ -6,7 +6,7 @@
   "main": "dist/hook.js",
   "license": "FSL-1.1-ALv2",
   "scripts": {
-    "build": "tsup src/hook.ts --format esm --out-dir dist --no-splitting",
+    "build": "node init && tsup src/hook.ts --format esm --out-dir dist --no-splitting",
     "test": "vitest run",
     "test:watch": "vitest"
   },

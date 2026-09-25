@@ -3,7 +3,6 @@ target
 
 # IDE
 .idea/
-.vscode/
 *.swp
 *.swo
 *~
@@ -17,8 +16,6 @@ Thumbs.db
 !.claude/CLAUDE.md
 
 # Environment
-.env
-.env.local
 
 # Logs
 *.log
@@ -63,3 +60,4 @@ tmp/
 
 # Agent tooling worktrees (never commit)
 .agent-worktrees/
+config.bat
